@@ -1,0 +1,64 @@
+
+$primaryColor: red;
+///#585858;
+$secondaryColor: #FFF;
+$sidebar-width: 255px;
+$profile-image-width: 180px;
+
+.sidebar {
+    background-color: $secondaryColor;
+    width: $sidebar-width;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    box-shadow: 1px 0px 1px #CCC;
+    img {
+        height: $profile-image-width;
+        max-width: $profile-image-width;
+        margin: ($sidebar-width - $profile-image-width) / 2;
+    }
+    a {
+        background-color: rgba(0,0,0,0);
+        border: none;
+        color: #515151;
+        font-weight: 500;
+        font-size: 16px;
+        i {
+            font-size: 14px;
+            margin-right: 6px;
+        }
+    }
+}
+
+.box {
+    background-color: #FFF;
+    padding: 26px;
+    margin: 50px auto;
+    box-shadow: 0px 1px 4px #CCC;
+}
+
+.login_form {
+    min-width: 300px;
+    label {
+        input.form-control {
+            .login_form label input.form-control {
+                display: block;
+                width: 260px;
+                margin-left: 6px;
+            }
+            }
+    }
+}
+
+.content {
+    padding: .75rem 1.25rem;
+    margin-left: $sidebar-width;
+}
+
+.content-header {
+    padding: .75rem 1.25rem;
+    margin-left: $sidebar-width;
+    margin-bottom: 32px;
+}
+

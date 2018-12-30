@@ -1,0 +1,28 @@
+{
+    "name": "erickfirmo/mvc-php",
+    "description": "Framework PHP",
+    "keywords": ["framework", "mvc", "php"],
+    "license": "MIT",
+    "type": "project",
+
+    "require": {
+        "php": "^7.1.11"
+        
+    },
+
+    "autoload": {
+        "psr-4": {
+             "Core\\": "Core/",
+             "App\\": "App/"
+        },
+
+        "classmap": [
+            "database"
+        ]
+        
+
+        
+
+
+    }
+}
