@@ -1,7 +1,7 @@
 {
-    "name": "erickfirmo/mvc-php",
-    "description": "Framework PHP",
-    "keywords": ["framework", "mvc", "php"],
+    "name": "erickfirmo/dividas-dos-clientes",
+    "description": "Sistema de cadastro de clientes e suas dívidas",
+    "keywords": ["sistema", "gerenciamento", "clientes", "dividas"],
     "license": "MIT",
     "type": "project",
 
