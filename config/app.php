@@ -1,8 +1,9 @@
 <?php
 
 return [
-    'APP_NAME' => 'MVC-PHP',
 
-    'APP_URL' => 'http://dividas.loc'
+    'APP_NAME' => 'Dívidas dos Clientes',
+
+    'APP_URL' => 'http://host.host'
 
 ];

@@ -1,7 +1,6 @@
 <?php
 
 return [
-    
 
     'HOST' => 'localhost',
 
@@ -13,6 +12,6 @@ return [
 
     'DB_DRIVER' => 'mysql',
 
-    'CHARSET' => 'uft-8'
+    'CHARSET' => 'utf-8'
 
 ];

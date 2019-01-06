@@ -23,10 +23,6 @@ CREATE TABLE `dividas`(
 ) DEFAULT CHARSET = 'utf8';
 
 
-
-
-) DEFAULT CHARSET = 'utf8';
-
 CREATE TABLE `dividas_dos_clientes`(
     `id` INT NOT NULL AUTO_INCREMENT,
     `cliente_id` INT NOT NULL,

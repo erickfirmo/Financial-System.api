@@ -13,7 +13,8 @@
     "autoload": {
         "psr-4": {
              "Core\\": "Core/",
-             "App\\": "App/"
+             "App\\": "App/",
+             "Tests\\": "tests/"
         },
 
         "classmap": [
@@ -24,5 +25,8 @@
         
 
 
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
     }
 }
