@@ -52,7 +52,7 @@ class UserController extends Controller
         ]);
 
         $email = $this->request()->input('email');
-        $user = (new User())->findBy('email', $email);
+        $user = (new User())->findBy('email="'.$email.'"');
         if($user != NULL)
         {
             if($user->password == md5($this->request()->input('password')))

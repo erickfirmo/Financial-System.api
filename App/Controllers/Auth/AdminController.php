@@ -51,7 +51,7 @@ class AdminController extends Controller
             'password' => 'required',
         ]);
         $email = $this->request()->input('email');
-        $admin = (new Admin())->findBy('email', $email);
+        $admin = (new Admin())->findBy('email="'.$email.'"');
         if($admin != NULL)
         {
             if($admin->password == md5($this->request()->input('password')))
