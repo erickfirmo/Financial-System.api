@@ -8,7 +8,7 @@ Sistema de cadastro de clientes e suas dívidas
 composer update
 
 
-### Digite a linha de comando na pasta public localizada na raíz do projeto:
+### Digite as linhas de comando na pasta public localizada na raíz do projeto:
 
 npm install jquery
 
