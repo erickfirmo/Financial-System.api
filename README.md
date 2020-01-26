@@ -10,9 +10,29 @@ Balance Management System with PHP. developed by Érick Firmo (BR) http://erickf
 ## Install
 Clone the project:
 
-```sh
-git clone https://github.com/erickfirmo/Financial-System.git
+```console
+$ git clone https://github.com/erickfirmo/Financial-System.git
+
 ```
+Installing the dependencies:
+
+
+
+
+```console
+
+// Installing the back-end dependencies
+$ composer install
+
+// Entering the public folder
+$ cd public
+
+//Installing the front-end dependencies
+
+$ npm install
+```
+
+
 ### Settings
 
 Application:
