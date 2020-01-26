@@ -1,5 +1,5 @@
 # Controle Financeiro
-Sistema gerenciador financeiro online pessoal
+Sistema gerenciador financeiro pessoal
 
 ## Instalação
 
