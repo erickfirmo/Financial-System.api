@@ -1,4 +1,4 @@
-# dividas-dos-clientes
+# Controle-Financeiro
 Sistema de cadastro de clientes e suas dívidas
 
 ## Instalação
