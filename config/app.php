@@ -2,8 +2,8 @@
 
 return [
 
-    'APP_NAME' => 'Dívidas dos Clientes',
+    'APP_NAME' => 'Financial System',
 
-    'APP_URL' => 'http://host.host'
+    'APP_URL' => 'http://financial.loc'
 
 ];
