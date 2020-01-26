@@ -12,7 +12,7 @@ To install with composer:
 
 
 ```sh
-composer require erickfirmo/phpmodel
+composer require erickfirmo/financial-system
 ```
 
 
