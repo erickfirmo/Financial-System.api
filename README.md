@@ -8,24 +8,7 @@ Balance Management System with PHP. developed by Érick Firmo (BR) http://erickf
 
 
 ## Install
-To install with composer:
 
-
-```sh
-composer require erickfirmo/financial-system
-```
-
-
-## Usage
-```php
-<?php
-
-  // 
-  
-
-```
-
-### Settings
 Application:
 ```php
 <?php
