@@ -1,13 +1,13 @@
 {
-    "name": "erickfirmo/dividas-dos-clientes",
-    "description": "Sistema de cadastro de clientes e suas dívidas",
-    "keywords": ["sistema", "gerenciamento", "clientes", "dividas"],
+    "name": "erickfirmo/Financial-System",
+    "description": "Balance Management System with PHP",
+    "keywords": ["financial system"],
     "license": "MIT",
     "type": "project",
 
     "require": {
         "php": "^7.1.11",
-        "erickfirmo/phpmodel": "^1.0"
+        "erickfirmo/phpmodel": "^1.0.1"
         
     },
 
