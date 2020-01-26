@@ -4,8 +4,109 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b846eee233afec5ac965b0fac9b6c24",
-    "packages": [],
+    "content-hash": "34b132f949d031fbdae4f489f2b34d6e",
+    "packages": [
+        {
+            "name": "erickfirmo/dbconnection",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erickfirmo/db.connection.php.pdo.git",
+                "reference": "9aeaf5d241241495554d69c007a8a9435297650d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erickfirmo/db.connection.php.pdo/zipball/9aeaf5d241241495554d69c007a8a9435297650d",
+                "reference": "9aeaf5d241241495554d69c007a8a9435297650d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ErickFirmo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Érick Firmo",
+                    "email": "erickluques@gmail.com"
+                }
+            ],
+            "description": "PDO database library",
+            "keywords": [
+                "Connection",
+                "OOP",
+                "PHP7",
+                "database",
+                "db",
+                "mysql",
+                "mysql-database",
+                "pdo",
+                "php",
+                "php-class",
+                "sql"
+            ],
+            "time": "2019-12-09T04:00:18+00:00"
+        },
+        {
+            "name": "erickfirmo/phpmodel",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erickfirmo/PhpModel.git",
+                "reference": "ea65ea3ed5f3559ff2ffafdd54193741e39aad4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erickfirmo/PhpModel/zipball/ea65ea3ed5f3559ff2ffafdd54193741e39aad4f",
+                "reference": "ea65ea3ed5f3559ff2ffafdd54193741e39aad4f",
+                "shasum": ""
+            },
+            "require": {
+                "erickfirmo/dbconnection": "^1.0",
+                "php": ">=7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ErickFirmo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Érick Firmo",
+                    "email": "erickluques@gmail.com"
+                }
+            ],
+            "description": "MySQL query builder class in PHP.",
+            "keywords": [
+                "OOP",
+                "PHP7",
+                "crud",
+                "database",
+                "db",
+                "model",
+                "mysql",
+                "mysql-database",
+                "pdo",
+                "php",
+                "php-class",
+                "sql"
+            ],
+            "time": "2020-01-26T19:23:27+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
