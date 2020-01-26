@@ -1,33 +1,57 @@
-# Controle Financeiro
-Sistema gerenciador financeiro pessoal
-
-## Instalação
-
-### Digite a linha de comando na raíz do projeto:
-
-composer update
+# Financial System
+Balance Management System with PHP. developed by Érick Firmo (BR) http://erickfirmo.dev
 
 
-### Digite as linhas de comando na pasta public localizada na raíz do projeto:
-
-npm install jquery
-
-npm install bootstrap
-
-npm install popper.js
-
-npm install admin-lte --save
+## Requirements
+- PHP >= 7.1.11
+- <a href="https://github.com/erickfirmo/.htaccess/blob/master/.htaccess" target="_blank">URL rewrite</a>
 
 
-
-### Configure os arquivos app.php e database.php na pasta config, localizada na raíz do projeto:
-
-
-//app.php
-
-![alt text](https://raw.githubusercontent.com/erickfirmo/dividas-dos-clientes/master/config1.png)
+## Install
+To install with composer:
 
 
-//database.php
+```sh
+composer require erickfirmo/phpmodel
+```
 
-![alt text](https://raw.githubusercontent.com/erickfirmo/dividas-dos-clientes/master/config2.png)
+
+## Usage
+```php
+<?php
+
+  // 
+  
+
+```
+
+### Settings
+Application:
+```php
+<?php
+  return [
+  
+    'APP_NAME' => 'Financial System',
+    'APP_URL' => '<server>'
+    
+];
+  
+
+```
+
+Database:
+```php
+<?php
+
+  return [
+
+    'HOST' => '<server>',
+    'DB_USER' => '<user>',
+    'DB_PASSWORD' => '<password>',
+    'DB_NAME' => '<database_name>',
+    'DB_DRIVER' => 'mysql',
+    'CHARSET' => 'utf-8'
+];
+
+  
+```
