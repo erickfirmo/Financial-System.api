@@ -1,8 +1,8 @@
-CREATE DATABASE `dividas`
+CREATE DATABASE `financial`
 DEFAULT CHARACTER SET utf8
 DEFAULT COLLATE utf8_general_ci;
 
-USE `dividas`;
+USE `financial`;
 
 CREATE TABLE `clientes`(
     `id` INT NOT NULL AUTO_INCREMENT,
