@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-new DBConnection();
+new \Erickfirmo\DBConnection('../config/database.php');
 
 session_start();
 
