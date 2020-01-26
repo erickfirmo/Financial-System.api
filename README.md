@@ -8,6 +8,12 @@ Balance Management System with PHP. developed by Érick Firmo (BR) http://erickf
 
 
 ## Install
+Clone the project:
+
+```sh
+git clone https://github.com/erickfirmo/Financial-System.git
+```
+### Settings
 
 Application:
 ```php
@@ -28,7 +34,7 @@ Database:
 
   return [
 
-    'HOST' => '<server>',
+    'HOST' => 'localhost',
     'DB_USER' => '<user>',
     'DB_PASSWORD' => '<password>',
     'DB_NAME' => '<database_name>',
