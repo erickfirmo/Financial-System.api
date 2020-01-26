@@ -2,8 +2,8 @@
 
 return [
 
-    'APP_NAME' => 'Financial System',
+    'app_name' => 'Financial System',
 
-    'APP_URL' => 'http://financial.loc'
+    'app_url' => 'http://financial.loc'
 
 ];
