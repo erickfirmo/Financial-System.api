@@ -1,5 +1,5 @@
-# dividas-dos-clientes
-Sistema de cadastro de clientes e suas dívidas
+# Controle Financeiro
+Sistema gerenciador financeiro online pessoal
 
 ## Instalação
 
