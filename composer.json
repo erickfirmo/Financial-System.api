@@ -7,7 +7,9 @@
 
     "require": {
         "php": "^7.1.11",
-        "erickfirmo/phpmodel": "^1.0.1"
+        "erickfirmo/dbconnection": "^1.0.3",
+        "erickfirmo/phpmodel": "^1.0.2",
+        "erickfirmo/router": "^1.0"
         
     },
 
