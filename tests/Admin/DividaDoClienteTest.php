@@ -26,7 +26,7 @@ class DividaDoClienteTest extends TestCase
         $divida_do_cliente->cliente_id = '2';
         $divida_do_cliente->divida_id = '1';
         $divida_do_cliente->save();
-        $register = (new \Core\Model())->seeInDatabase('dividas_dos_clientes',[
+        $register = (new \ErickFirmo\Model())->seeInDatabase('dividas_dos_clientes',[
             'divida_id' => '1',
             'cliente_id' => '2',
         ]);
@@ -37,7 +37,7 @@ class DividaDoClienteTest extends TestCase
     public function test_excluir_divida_do_cliente_e_verificar_se_ainda_existe_no_banco_de_dados()
     {
         $divida_do_cliente = (new \App\DividaDoCliente())->delete(1);
-        $register = (new \Core\Model())->seeInDatabase('dividas_dos_clientes',[
+        $register = (new \ErickFirmo\Model())->seeInDatabase('dividas_dos_clientes',[
             'divida_id' => '1',
             'cliente_id' => '2',
         ]);
