@@ -12,7 +12,7 @@ $router->setNamespace('App\Controllers\\');
 
 $router->get(['/', 'HomeController@index']);
 
-$router->get(['/clientes', 'ClienteController@select']);
+$router->get(['/clientes', 'ClienteController@index']);
 $router->get(['/clientes/create/', 'ClienteController@create']);
 $router->get(['/clientes/{$id}/edit/', 'ClienteController@create']);
 $router->get(['/clientes/{$id}/', 'ClienteController@show']);
