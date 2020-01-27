@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use Core\Request;
 use Core\View;
-use Core\Router;
 use Core\Auth;
 
 class Controller
@@ -26,24 +25,9 @@ class Controller
         return new Request;
     }
 
-    public function route()
+    public function redirect($route)
     {
-        return new Router;
-    }
-
-    public function alert($status, $alert)
-    {
-        return (new View())->alert($status, $alert);
-    }
-
-    public function middleware($permission)
-    {
-        switch ($permission) {
-            case 'guest':
-                return (new \App\Middleware\UserMiddleware());
-                break;
-            case 'admin':
-                return (new \App\Middleware\AdminMiddleware());
-        }
+        header("Location: ".(isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS']) ? 'https' : 'http')."".$_SERVER['HTTP_HOST'].$route);
+        exit();
     }
 }
