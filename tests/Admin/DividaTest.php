@@ -12,7 +12,7 @@ class DividaTest extends TestCase
         $divida->valor = '2000.00';
         $divida->vencimento = '2019-12-01';
         $divida->save();
-        $register = (new \Core\Model())->seeInDatabase('dividas',[
+        $register = (new \ErickFirmo\Model())->seeInDatabase('dividas',[
             'valor' => '2000.00',
             'vencimento' => '2019-12-01',
         ]);
@@ -27,7 +27,7 @@ class DividaTest extends TestCase
             'valor' => '3000.00',
             'vencimento' => '2020-12-01'
         ]);
-        $register = (new \Core\Model())->seeInDatabase('dividas',[
+        $register = (new \ErickFirmo\Model())->seeInDatabase('dividas',[
             'valor' => '3000.00',
             'vencimento' => '2020-12-01'
         ]);
