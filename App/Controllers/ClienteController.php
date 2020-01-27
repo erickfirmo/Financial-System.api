@@ -37,18 +37,15 @@ class ClienteController extends Controller
         $cliente->cpf = $this->request()->input('cpf');
         $cliente->sexo = $this->request()->input('sexo');
         $cliente->save();
-        //$this->alert('success', 'Cliente salvo com sucesso');
-        //return $this->route()->redirect('/clientes/edit');
+        return $this->jsonResponse(['success', 'Cliente salvo com sucesso']);
     }
 
     public function edit($id)
     {
         $cliente = (new Cliente())->find($id);
         $dividas = (new Divida())->all();
-        /*return $this->view('/clientes/edit', [
-            'cliente' => $cliente,
-            'dividas' => $dividas
-        ]);*/
+        return $this->jsonResponse(['cliente' => $cliente, 'dividas' => $dividas]);
+
     }
 
     public function show($id)
