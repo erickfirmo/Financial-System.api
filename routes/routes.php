@@ -3,46 +3,6 @@
 /* configurações de rotas */
 
 return [
-
-    '/' => [
-        'action' => 'HomeController@index',
-        'method' => 'GET'
-    ],
-
-    '/clientes/' => [
-        'action' => 'ClienteController@index',
-        'method' => 'GET'
-    ],
-    
-    '/clientes/create/' => [
-        'action' => 'ClienteController@create',
-        'method' => 'GET'
-    ],
-    
-    '/clientes/store/' => [
-        'action' => 'ClienteController@store',
-        'method' => 'POST'
-    ],
-
-    '/clientes/$id/' => [
-        'action' => 'ClienteController@show',
-        'method' => 'GET'
-    ],
-
-    '/clientes/$id/edit/' => [
-        'action' => 'ClienteController@edit',
-        'method' => 'GET'
-    ],
-
-    '/clientes/$id/update/' => [
-        'action' => 'ClienteController@update',
-        'method' => 'POST'
-    ],
-
-    '/clientes/$id/destroy/' => [
-        'action' => 'ClienteController@destroy',
-        'method' => 'POST'
-    ],
     
     '/dividas/' => [
         'action' => 'DividaController@index',
