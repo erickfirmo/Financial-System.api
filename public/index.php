@@ -4,9 +4,6 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 session_start();
 
-$query_builder = (new \ErickFirmo\Model('../config/database.php'));
+new ErickFirmo\DBConnection();
 
-require_once __DIR__.'/../routes/api.php';
-
-
-$router->run();
+include_once __DIR__.'/../routes/api.php';
