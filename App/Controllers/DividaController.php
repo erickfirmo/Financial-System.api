@@ -17,15 +17,13 @@ class DividaController extends Controller
     public function index()
     {
         $dividas = (new Divida())->all();
-        return $this->view('/dividas/index', [
-            'dividas' => $dividas
-        ]);
+        //
+        print_r($dividas);
     }
 
     public function create()
     {
         $clientes = (new Cliente())->all();
-        return $this->view('/dividas/create');
     }
 
     public function store()
@@ -34,8 +32,8 @@ class DividaController extends Controller
         $divida->valor = $this->request()->input('valor');
         $divida->vencimento = $this->request()->input('vencimento');
         $divida->save();
-        $this->alert('success', 'Dívida cadastrada com sucesso !');
-        return $this->route()->redirect('/dividas/edit');
+        //$this->alert('success', 'Dívida cadastrada com sucesso !');
+        //return edit
     }
 
     public function edit($id)
