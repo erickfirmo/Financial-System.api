@@ -16,7 +16,7 @@ class ClienteTest extends TestCase
         $cliente->rg = '8080';
         $cliente->cpf = '8080';
         $cliente->save();
-        $register = (new \Core\Model())->seeInDatabase('clientes',[
+        $register = (new \ErickFirmo\Model())->seeInDatabase('clientes',[
             'nome' => 'Érick',
             'sobrenome' => 'Firmo',
             'nascimento' => '2019-01-29',
@@ -43,7 +43,7 @@ class ClienteTest extends TestCase
             'cpf' => '07654321',
             'sexo' => 'M'
         ]);
-        $register = (new \Core\Model())->seeInDatabase('clientes',[
+        $register = (new \ErickFirmo\Model())->seeInDatabase('clientes',[
             'nome' => 'erick',
             'sobrenome' => 'firmo',
             'nascimento' => '2019-01-01',
