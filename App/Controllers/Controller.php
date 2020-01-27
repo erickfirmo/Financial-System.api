@@ -30,4 +30,10 @@ class Controller
         header("Location: ".(isset($_SERVER['HTTPS']) && !empty($_SERVER['HTTPS']) ? 'https' : 'http')."".$_SERVER['HTTP_HOST'].$route);
         exit();
     }
+    
+    public function jsonResponse($array)
+    {
+        echo json_encode($array);
+        exit();
+    }
 }
