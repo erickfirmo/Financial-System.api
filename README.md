@@ -39,21 +39,15 @@ Application:
 ```php
 <?php
   return [
-  
     'APP_NAME' => 'Financial System',
-    'APP_URL' => '<server>'
-    
 ];
-  
 
 ```
 
 Database:
 ```php
 <?php
-
   return [
-
     'HOST' => 'localhost',
     'DB_USER' => '<user>',
     'DB_PASSWORD' => '<password>',
@@ -61,6 +55,5 @@ Database:
     'DB_DRIVER' => 'mysql',
     'CHARSET' => 'utf-8'
 ];
-
   
 ```
