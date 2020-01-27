@@ -16,7 +16,7 @@ class ClienteController extends Controller
     public function index()
     {
         $clientes = (new Cliente())->all();
-        //return index
+        return $this->jsonResponse($clientes);
     }
 
     public function store()
