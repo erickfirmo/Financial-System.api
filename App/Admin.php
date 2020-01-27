@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Core\Model;
+use ErickFirmo\Model;
 use App\User;
 
 class Admin extends Model
